@@ -201,8 +201,29 @@ input[type=text] {
 
 
 
-@media screen and (max-width: 800px) {
-    body {
-        background-color: blue;
-    }
-}
+      /* ----------- iPad 3 and 4 ----------- */
+      /* Portrait and Landscape */
+      @media only screen
+        and (min-device-width: 168px)
+        and (max-device-width: 1024px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+
+      }
+
+      /* Portrait */
+      @media only screen
+        and (min-device-width: 168px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
+        and (-webkit-min-device-pixel-ratio: 2) {
+
+      }
+
+      /* Landscape */
+      @media only screen
+        and (min-device-width: 168px)
+        and (max-device-width: 1024px)
+        and (orientation: landscape)
+        and (-webkit-min-device-pixel-ratio: 2) {
+
+      }
